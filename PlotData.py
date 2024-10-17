@@ -9,7 +9,7 @@ y=[]
 x=[]
 
 
-with open("C:\\Programering\\python\\Uppgifter\\FileReadWind-turbine\\smhi-opendata.csv","r",encoding="utf-8") as f:
+with open("C:\\Programering\\python\\Uppgifter\\FileReadAndWrite\\smhi-opendata.csv","r",encoding="utf-8") as f:
     for line in f:
         lineData = line.split(";")
         dates.append(lineData[0])
